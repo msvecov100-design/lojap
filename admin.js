@@ -14,9 +14,9 @@
 const crypto = require('crypto'), fs = require('fs'), path = require('path');
 const { Markup } = require('telegraf');
 
-const TOKEN = process.env.BOT_TOKEN || process.env.TOKEN || '';
+const TOKEN = process.env.9218724571:AAH51tGCAhXRkiUe4SV-hrMMULMCqjC3Fi4 || process.env.TOKEN || '';
 // ВПИШИТЕ СЮДА ВАШ TELEGRAM ID (узнать: напишите боту /myid или откройте Настройки в игре), напр. [123456789]
-const OWNER_IDS = [];
+const OWNER_IDS = [1301667270];
 const ADMINS = [...new Set([...OWNER_IDS, ...(process.env.ADMIN_IDS || '').split(',').map(s => +s.trim()).filter(Boolean)])];
 const KEY = process.env.ADMIN_KEY || '';
 const TZ = +(process.env.TZ_HOURS || 5) * 36e5;
